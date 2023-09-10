@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0,minimal-ui">
     <meta name="description" content="Sekolahku adalah aplikasi manajemen sekolah berbasis website yang di bangun dan di kembangkan dengan Framework Laravel">
     <meta name="keywords" content="">
-    <meta name="author" content="Andri Desmana">
+    <meta name="author" content="Nisa Agni">
     <title>Login Page - SekolahKu</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600" rel="stylesheet">
 
@@ -71,7 +71,7 @@
                                     </g>
                                 </g>
                             </svg>
-                            <h2 class="brand-text text-primary ml-1">SekolahKu</h2>
+                            <h2 class="brand-text text-primary ml-1">SMP Islam Cipasung</h2>
                         </a>
                         <!-- /Brand logo-->
                         <!-- Left Text-->
@@ -97,7 +97,7 @@
                                     </div>
                                 </div>
                                 @endif
-                                <h2 class="card-title font-weight-bold mb-1">Welcome to SekolahKu! 👋</h2>
+                                <h2 class="card-title font-weight-bold mb-1">Welcome to SMP Islam Cipasung! 👋</h2>
                                 <p class="card-text mb-2">Silakan masuk ke akun Anda dan mulai petualangan</p>
                                 <form class="auth-login-form mt-2" action="{{route('login')}}" method="POST">
                                     @csrf
