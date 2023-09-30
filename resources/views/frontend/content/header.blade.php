@@ -18,13 +18,14 @@
                         <ul>
                             <li><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:{{@$footer->telp}}"> {{@$footer->telp}} </a></li>
                             <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="#">{{@$footer->email}}</a></li>
-                            <li>
+                            <li><i class="fa fa-question-circle" aria-hidden="true"></i><a href="#"></a></li>
+                            <!-- <li>
                                 @auth
                                     <a href="/home" class="apply-now-btn2">Home</a>
                                 @else
                                     <a class="apply-now-btn2" href="{{route('login')}}"> Masuk</a>
                                 @endauth
-                            </li>
+                            </li> -->
                         </ul>
                     </div>
                 </div>
