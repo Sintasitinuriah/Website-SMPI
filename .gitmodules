@@ -1,0 +1,3 @@
+[submodule "Website-SMPI"]
+	path = Website-SMPI
+	url = https://github.com/Sintasitinuriah/Website-SMPI.git

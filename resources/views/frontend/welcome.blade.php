@@ -1,6 +1,6 @@
 @extends('layouts.Frontend.app')
 @section('title')
-    Sekolahku
+    SMPICIPASUNG
 @endsection
 
 @section('content')
