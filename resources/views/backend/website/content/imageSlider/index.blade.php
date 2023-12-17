@@ -54,7 +54,8 @@
                                         </thead>    
                                         <tbody>
                                             @foreach ($image as $key => $images)
-                                                <tr>
+                                            
+                                                <tr> 
                                                     <td></td>
                                                     <td> {{$key+1}} </td>
                                                     <td> <img src="{{asset('storage/images/slider/' .$images->image)}}" class="img-responsive" style="max-width: 50px; max-height:50px"> </td>
