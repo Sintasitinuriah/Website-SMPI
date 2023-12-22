@@ -97,7 +97,9 @@
                                     </div>
                                 </div>
                                 @endif
-                                <h2 class="card-title font-weight-bold mb-1">Welcome to SMP Islam Cipasung! 👋</h2>
+                                <CENTER><img class="img-fluid" src="{{asset('Assets/Backend/images/logo/web-smpi.jpg')}}" alt="SMAI" /></CENTER>
+                                <BR>
+                                <center><h2 class="card-title font-weight-bold mb-1">SMP ISLAM CIPASUNG</h2></center>
                                 <p class="card-text mb-2">Silakan masuk ke akun Anda dan mulai petualangan</p>
                                 <form class="auth-login-form mt-2" action="{{route('login')}}" method="POST">
                                     @csrf
